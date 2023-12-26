@@ -1,0 +1,126 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFF;
+    color: #434455;
+}
+.about-title,
+.team-title,
+.products-title {
+    color: #2E2F42;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+}
+.about-subtitle,
+.team-subtitle,
+.products-subtitle {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.about-description,
+.team-description,
+.products-description {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+.header-logo,
+.footer-logo {
+    color: #4D5AE5;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.header-logo span,
+.footer-logo span {
+    color: #2E2F42;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.header-menu-home {
+    color: #2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.header-menu-home:hover,
+.header-menu-home:focus {
+    color: #404BBF;
+}
+.header-info-link {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.header-info-link:hover,
+.header-info-link:focus {
+    color: #404BBF;
+}
+.header-adres {
+    font-style: normal;
+}
+.main-info {
+    background-color: #2E2F42;
+}
+.main-info-title {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #FFFFFF;
+}
+.main-info .btn {
+    background-color: #4D5AE5;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+.main-info .btn:hover,
+.main-info .btn:focus {
+    background-color: #404BBF;
+}
+.team {
+    background-color: #F4F4FD;
+}
+.team-card {
+    background-color: #ffffff;
+}
+.footer {
+    background-color: #2E2F42;
+}
+.footer .footer-span {
+    color: #F4F4FD;
+}
+.footer-description {
+    color: #F4F4FD;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
