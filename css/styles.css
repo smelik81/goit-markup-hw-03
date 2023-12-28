@@ -1,8 +1,40 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul {
+    margin: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #FFF;
     color: #434455;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  overflow: hidden;
+}
+.container {
+    max-width: 1158px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
 .about-title,
 .team-title,
 .products-title {
@@ -33,8 +65,18 @@ body {
 a {
     text-decoration: none;
 }
-ul {
-    list-style-type: none;
+.header {
+    border-bottom: 1px solid #E7E9FC;
+}
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.header-navigation {
+    display: flex;
 }
 .header-logo,
 .footer-logo {
@@ -45,6 +87,8 @@ ul {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
+    width: 115px;
 }
 .header-logo span,
 .footer-logo span {
@@ -56,6 +100,11 @@ ul {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
+.header-menu {
+    display: flex;
+    width: 261px;
+    gap: 40px;
+}
 .header-menu-home {
     color: #2E2F42;
     font-size: 16px;
@@ -66,6 +115,10 @@ ul {
 .header-menu-home:hover,
 .header-menu-home:focus {
     color: #404BBF;
+}
+.header-info {
+    display: flex;
+    gap: 40px;
 }
 .header-info-link {
     color: #434455;
@@ -84,6 +137,10 @@ ul {
 .main-info {
     background-color: #2E2F42;
 }
+.banner {
+    padding: 188px 316px 292px;
+    text-align: center;
+}
 .main-info-title {
     font-size: 56px;
     font-weight: 700;
@@ -100,16 +157,53 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    border-radius: 4px;
+    padding: 16px 32px;
+    margin: 48px auto;
 }
 .main-info .btn:hover,
 .main-info .btn:focus {
     background-color: #404BBF;
 }
+
+.about {
+    padding: 120px 0;
+}
+.about-list {
+    display: flex;
+}
+.about-list-item {
+    text-align: start;
+    width: 264px;
+    margin-right: 24px ;
+}
+.about-list-item:last-child {
+    margin-right: 0;
+}
 .team {
+    padding: 120px 0;
     background-color: #F4F4FD;
+}
+.team-title {
+    margin-bottom: 72px;
+}
+.team-list {
+    display: flex;
+    justify-content: space-between;
 }
 .team-card {
     background-color: #ffffff;
+}
+.team-img {
+    margin-bottom: 32px;
+}
+.team-subtitle {
+    margin-bottom: 8px;
+    text-align: center;
+}
+.team-description {
+    text-align: center;
+    padding-bottom: 32px;
 }
 .footer {
     background-color: #2E2F42;
